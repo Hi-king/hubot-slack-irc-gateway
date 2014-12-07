@@ -43,6 +43,9 @@ class SlackIrcGateway extends Adapter
             @slack_client.send(str, channel)
         console.log "hello"
 
+    notice: (envelope, strings...) ->
+        @send(envelope, strings...) # any way to notice ?
+
     # @see https://github.com/nandub/hubot-irc/blob/master/src/irc.coffee
     createUser: (channel, from) ->
         user = @getUserFromId from
