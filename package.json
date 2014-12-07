@@ -1,6 +1,6 @@
 {
   "name": "hubot-slack-irc-gateway",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Slack adapter with irc-gateway for hubot",
   "main": "./src/slack-irc-gateway",
   "scripts": {
